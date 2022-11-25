@@ -1,0 +1,75 @@
+/*Unit code 403 Assignmnet 2
+Name: Philip Mburu
+Reg NUmber: DCS-01-0844/2022
+*/
+body{
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+    background-attachment: fixed;
+}
+
+#showcase{
+    background-image:url('../utility/silverware.jpg');
+    background-size:cover;
+    background-position:center;
+    height: 100vh;
+    background-repeat: repeat;
+}
+
+#showcase .heading{
+    margin: 0px;
+    text-align: center;
+    font-style: normal;
+    font-family: Lucida Sans Unicode, Helvetica, Arial;
+    text-emphasis: 22pt;
+    color:#A4A400 ;
+    background-size: 40px 20px;
+    background-color:#F0F0F0
+}
+
+#showcase h3{
+    text-emphasis: 18pt;
+    text-align: left;
+    font-family: Lucida Sans Unicode, Helvetica, Arial;
+    color:#A4A400 ;
+    background-size: 40px 20px;
+    background-color:#F0F0F0
+}
+
+#showcase div {
+    font-style: italic;
+    background-color: #FFFFA8;
+    display: block;
+    margin-left: 3em;
+}
+
+.ul_no_sign{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+abbr{
+    text-decoration: underline;
+    border-bottom: 1px dotted black;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+}
+
+a {
+    color: #A4A400;
+}
+#showcase .ul_list{
+list-style-image:url(../utility/pie_icon.gif);
+}
+
+#showcase .ul_no_sign{
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+}
